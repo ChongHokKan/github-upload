@@ -11,7 +11,8 @@ on:
 
 
      workflow_dispatch:
-jobs:
+
+ jobs:
 
 
     build:
@@ -27,7 +28,7 @@ jobs:
 
       - name: Run a multi-line script
 
-        run:
+        run: |
           
           echo Add other actions to build,
 
