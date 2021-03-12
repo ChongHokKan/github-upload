@@ -1,7 +1,6 @@
 name: Greeting from ChongHokKan
 
-
-  on:
+on:
      
      push:
        branches: [ master ]
@@ -12,10 +11,7 @@ name: Greeting from ChongHokKan
 
 
      workflow_dispatch:
-
-
-
-  jobs:
+jobs:
 
 
     build:
